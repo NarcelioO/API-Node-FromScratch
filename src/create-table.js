@@ -2,7 +2,8 @@ import {sql} from './db.js'
 
 
 sql`
-CREATE TABLE video1 ( 
+CREATE TABLE Videos ( 
+    id TEXT PRIMARY KEY,
     title TEXT,     
     description TEXT,               
     duration INTEGER     
